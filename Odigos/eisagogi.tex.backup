@@ -1,0 +1,188 @@
+\documentclass[legalpaper,10pt,a5paper]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage{gfsneohellenic}
+\usepackage{xltxtra}
+\usepackage{xgreek} % Greek hyphenation
+\usepackage[scale=0.8]{geometry}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{multirow}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{wallpaper}
+\usepackage{hyperref}
+\usepackage{bbding}
+\CenterWallPaper{1}{background3.png}
+\setromanfont[Mapping=tex-text]{GFS Neohellenic}
+\setsansfont[Mapping=tex-text]{GFS Neohellenic}
+\setmonofont[Mapping=tex-text]{GFS Neohellenic}
+
+\newcounter{nextyear}
+\renewcommand{\thesection}{\Roman{section}}
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%   % Original »plain« replaced by »emptyx
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+
+
+
+\begin{document}
+\color{black!85}
+\setcounter{nextyear}{\year}
+\addtocounter{nextyear}{1}
+\Roman{part}
+\Roman{section}
+\includepdf{cover}
+\tableofcontents
+\
+\section{int main()}
+Γειά σου μικρέ-ή πληροφορικάριε-α, καλωσόρισες στην κοινότητα μας! Ας γνωριστούμε λοιπόν όσο είναι δυνατόν μέσα από έναν μονόλογο και ένα κομμάτι χαρτί. Είμαστε ο φοιτητικός σύλλογος 
+Πληροφορικής και Τηλεματικής. Φαντάσου πως σου μιλάει ένας τυχαίος φοιτητής του τμήματός μας που έχει την συνισταμένη των απόψεων όλων των φοιτητών. Αυτός είναι ο ρόλος μας.
+Εάν μέχρι στιγμής σου φαίνονται όλα παράξενα, μην ανησυχείς, δεν θα αργήσεις να μπείς στο κλίμα! Αν και φέτος ο αριθμός τον εισακτέων ανέβηκε στους 80 από τους 45 που είχαμε, ευελπιστούμε
+και είναι στο χέρι μας να διατηρήσουμε όσο γίνεται οικογενειακό το κλίμα. 
+Το τμήμα μας αν και περιέχει αρκετά αντικείμενα μπορεί κανείς να πεί χώρις βλάβη της γενικότητας ότι περιελύσεται γύρω από το διαδίκτυο (Web).
+
+
+\section{\#include <history.h>}
+Το όνομα του Πανεπιστήμιου οφείλεται στον Παναγή Χαροκόπο ο οποίος οραματίστηκε ένα εκπαιδευτικό ίδρυμα μεάριστες κτηριακές υποδομές και εξοπλισμό, σε αρμονία με το φυσικό περιβάλλον,
+που θα πρόσφερε ό,τι πιο σύγχρονο παρείχε η επιστήμη. Έτσι το 1990 ιδρύθηκε με το άρθρ. 9 του Ν.1894/90 όπως τροποποιήθηκε με το άρθρ. 17 του Ν. 1966/91 με πρωτοβουλία του 
+Καθηγητή Γεωργίου Καραμπατζού (†2011). Βρίσκεσαι σε ένα τμήμα που ιδρύθηκε το 2007 και έχει βγάλει 3 φουρνιές αποφοίτων. 
+
+
+
+
+Πλέον ανήκεις σε 2 κοινότητες φοιτητών! Αυτή ολόκληρου του Χαροκοπείου Πανεπιστημίου καθώς και αυτή του τμήματος μας. Κάθε κοινότητα έχει το δικό τις διοικήτικο όργανο - την συνέλευση της.
+Φοιτητικό διοικητικό όργανο ολόκληρου του Πανεπιστημίου είναι η Γενική Συνέλευση, ενώ φοιτητικό διοικήτικο όργανο του τμήματος μας είναι η τμηματική συνέλευση. Περισσότερες πληροφορίες παρακάτω.
+
+\section{}
+
+\subsection{Μύθοι}
+\begin{itemize}
+ \item Η μεγάλη δυσκολία είναι οι πανελλήνιες και μετά τα πράγματα είναι χαλαρά.
+ \item Στο πανεπιστήμιο θα ασχοληθώ μόνο με πράγματα που μου αρέσουν.
+\end{itemize}
+
+\subsection{Αλήθειες}
+\begin{itemize}
+ \item Στην κλίμακα με άριστα το 10, το 5 είναι ότι είναι το 10 στην κλίμακα με άριστα το 20.
+\end{itemize}
+
+\subsection{Συμβολισμοί}
+Στο Πανεπιστήμιο και γενικότερα στον κόσμο εκτός Λυκείου συνήθως χρησιμοποιείται άλλος συμβολισμός για πολλά από τα οποία ήδη ξέρετε. Χαρακτηριστικά παραδείγματα:
+\begin{itemize}
+ \item ημχ = sinx
+ \item συνχ = cosx
+ \item εφχ = tanx
+ \item f'(x) = $\frac{df}{dx}$
+\end{itemize}
+
+\section{Εργαλεία}
+\begin{itemize}
+
+ \item Βασικός Επεξεργαστής κειμένου
+ \begin{itemize}
+ \item[\Checkmark] emacs
+ \item[\Checkmark] vim
+ \item[\Checkmark] nano
+ \end{itemize}
+ \item IDE's 
+  \begin{itemize}
+ \item[\Checkmark] Netbeans
+ \item[\Checkmark] Codeblocks
+ \item[\Checkmark] Eclipse
+ 
+ \end{itemize}
+ \item Git 
+ \item Octave
+ \item Gimp ή Photoshop
+ \item Latex - Xetex
+ \item Office
+
+\end{itemize}
+
+\section{Χρήσιμα Link}
+\begin{itemize}
+ \item[\Checkmark] \href{http://www.wolframalpha.com}{www.wolframalpha.com}
+ \item[\Checkmark] \href{http://www.coursera.org}{www.coursera.org}
+ \item[\Checkmark] \href{http://www.edx.org}{www.edx.org}
+ \item[\Checkmark] \href{http://www.github.com}{www.github.com}
+\end{itemize}
+
+
+
+
+
+
+
+\section{Tips}
+
+Σε πολλά απο τα μαθήματα με θεματικό αντικείμενο πιο κοντά στη Φυσική όπως είναι οι τηλεπικοινωνίες θα συναντήσετε συχνά την παρακάτω σχέση, γνωστή ως σχέση του Euler.
+\begin{equation}
+ e^{xi} = cosx+isinx 
+\end{equation}
+όπου $i^2 = -1$ τα γνωστά από τους μιγαδικούς!
+
+Ω ναι, μαθηματικά! 
+Αν σας αρέσουν τέλεια! 
+Αν δεν σας αρέσουν πρίν γκρινιάξετε και αλλάξετε σελίδα η σκίσετε βίαια το βιβλιαράκι πάρτε μια βαθιά ανάσα και δώστε τους μια ευκαιρία.
+Ας γράψουμε την (1) με δύο διαφορετικές μεταβλητές a και b.
+\begin{equation}
+ e^{ai} = cosa+isina 
+\end{equation}
+\begin{equation}
+ e^{bi} = cosb+isinb 
+\end{equation}
+
+από την (2) και την (3) αν πολλαπλασιάσουμε κατά μέλη έχουμε \\
+\begin{equation*}
+e^{ai}e^{bi} = (cosa+isina)(cosb+isinb) 
+\end{equation*}
+
+για το αριστερό μέλος λόγω της ιδιότητας εκθετικών $n^an^b=n^{a+b}$
+έχουμε 
+
+\begin{equation*}
+e^{(a+b)i} = (cosa+isina)(cosb+isinb) 
+\end{equation*}
+
+κάνοντας τις πράξεις στο δεξί μέλος καταλήγουμε στο
+
+\begin{equation*}
+e^{(a+b)i} = \underbrace{(cosacosb -sinasinb)}_\text{πραγματικό μέρος}+ i\underbrace{(cosasinb + sinacosb)}_\text{φανταστικό μέρος}
+\end{equation*}
+
+
+Όμως παρατηρήστε απο την (1) ότι αντί για x στη σχέση έχουμε a+b , συνεπώς αντικαθιστώντας με το 2ο μέλος της (1) για $x=a+b$ 
+
+\begin{equation*}
+\underbrace{cos(a+b)}_\text{πραγματικό μέρος} + i\underbrace{sin(a+b)}_\text{φανταστικό μέρος} =
+\underbrace{(cosacosb-sinasinb)}_\text{πραγματικό μέρος}+ i\underbrace{(cosasinb+sinacosb)}_\text{φανταστικό μέρος}
+\end{equation*}
+
+
+Όπως γνωρίζουμε από το λύκειο ένας μιγαδικός είναι ίσος με έναν άλλο μιγαδικό όταν το πραγματικά μέρη είναι ίσα και τα φανταστικά μέρη είναι ίσα. Άρα
+\begin{equation}
+cos(a+b)=cosacosb - sinasinb
+\end{equation}
+\begin{equation}
+sin(a+b)=cosasinb + sinacosb
+\end{equation}
+
+Σας θυμίζουν κάτι οι σχέσεις (4) και (5);
+
+\end{document}

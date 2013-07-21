@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {I}int main()}{3}{section.1}
+\contentsline {section}{\numberline {II}\#include <history.h>}{3}{section.2}
+\contentsline {section}{\numberline {III}Αλλαγή Περιβάλλοντος}{3}{section.3}
+\contentsline {subsection}{\numberline {III.1}Συμβολισμοί}{3}{subsection.3.1}
+\contentsline {section}{\numberline {IV}Εργαλεία}{4}{section.4}
+\contentsline {section}{\numberline {V}Χρήσιμα Link}{4}{section.5}
+\contentsline {section}{\numberline {VI}Tips}{4}{section.6}
